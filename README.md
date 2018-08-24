@@ -123,7 +123,7 @@ const welcomeMessage = 'Welcome to Flatbook, ' + currentUser;
 If we run the test suite with our updated code, we'll see both the second and third tests passing! However, before we move on, let's talk about interpolation.
 
 ## Interpolate Variables and Other JavaScript Expressions Inside Template Literals 
-String interpolation lets us dynamically insert values in the middle of a string. Before ES2015, we could accomplish this with concatenation:
+String interpolation lets us dynamically insert values in the middle of a string. Before ES2015, we could only accomplish this with concatenation:
 ```js
 const myString = 'concatenat';
 //=> undefined
